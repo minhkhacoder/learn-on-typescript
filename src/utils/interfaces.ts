@@ -14,7 +14,7 @@ export interface IProductPrice {
   price: number;
 }
 
-// & assertion (&) -> gộp 2 hoặc nhiều interface lại với nhau
+// & Intersection types (&) -> gộp 2 hoặc nhiều interface lại với nhau
 export type IFinalProduct = IProduct & IProductPrice;
 
 export interface ICard {
